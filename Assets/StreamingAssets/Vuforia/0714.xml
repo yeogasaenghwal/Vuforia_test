@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Cute" size="1.000000 1.046607"/>
+        <ImageTarget name="Flower" size="1.000000 1.000000"/>
+        <ImageTarget name="Covid19" size="1.000000 1.007874"/>
+        <ImageTarget name="poketmon.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="poketmon.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="poketmon.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="poketmon.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="poketmon.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="poketmon.Left" size="1.000000 1.000000"/>
+        <MultiTarget name="poketmon">
+            <Part name="poketmon.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="poketmon.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="poketmon.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="poketmon.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="poketmon.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="poketmon.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
